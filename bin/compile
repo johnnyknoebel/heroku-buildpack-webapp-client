@@ -143,6 +143,7 @@ fi
   fi
 
   status "Installing dependencies"
+  npm link --local
   # Make npm output to STDOUT instead of its default STDERR
   npm install --userconfig $build_dir/.npmrc 2>&1 | indent
 )
