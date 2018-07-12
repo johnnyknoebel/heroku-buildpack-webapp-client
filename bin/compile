@@ -243,5 +243,7 @@ echo "export PATH=\"\$HOME/.gem/$RUBY_VERSION/bin:\$PATH\"" > $build_dir/.profil
 if [ "$cleanup" != "nocl" ]; then
   status "Cleanup"
   echo "rm -rf !(${dist_dir})"
+  pwd
+  ls
   #rm -rf !(${dist_dir})
 fi
