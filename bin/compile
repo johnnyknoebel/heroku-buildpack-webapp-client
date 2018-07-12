@@ -231,6 +231,7 @@ fi
 
 # Run gulp
 status "Running gulp compile task"
+pwd
 $build_dir/node_modules/.bin/gulp compile 2>&1 | indent
 
 # Update the PATH
