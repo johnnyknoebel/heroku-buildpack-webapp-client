@@ -244,6 +244,6 @@ if [ "$cleanup" != "nocl" ]; then
   status "Cleanup"
   echo "rm -rf !(${dist_dir})"
   pwd
-  ls ../bapi/static
+  ls ../bapi/static/js
   #rm -rf !(${dist_dir})
 fi
