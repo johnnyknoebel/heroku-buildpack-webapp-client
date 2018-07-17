@@ -10,5 +10,5 @@ fi
 build_dir=$1/${CLIENT_DIR:-"client"}
 
 if [ -f $build_dir/gulpfile.js ]; then
-  echo "Found web application in directory $build_dir" && exit 0
+  echo "Javascript" && exit 0
 fi
